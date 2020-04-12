@@ -1,0 +1,68 @@
+body{
+  background-color: #031124;
+  font-family: Genghis Khan;
+}
+
+.topnav {
+  background-color: #0a4492;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #031124;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #031124;
+  color: #0a4492 ;
+}
+
+.previous {
+  background-color:#0a4492 ;
+  color: white;
+  float: left;
+  font-size: 36px;
+}
+
+.next {
+  float: right;
+  background-color: #0a4492;
+  color: white;
+  font-size: 36px;
+}
